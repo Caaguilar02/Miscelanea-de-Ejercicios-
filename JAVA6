@@ -1,0 +1,22 @@
+ class Main {
+
+public static void main(String[] args) {
+
+double area = 0; 
+double volumen = 0; 
+
+int radio = 15;
+
+
+int altura = 25;
+
+area = 2*Math.PI*radio* (altura+radio);
+
+volumen = Math.PI*Math.pow(radio,2)*altura;
+
+System.out.println(area);
+
+System.out.println(volumen);
+
+  }
+}
