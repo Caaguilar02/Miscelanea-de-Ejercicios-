@@ -9,10 +9,10 @@ java.util.Scanner valor = new Scanner(System.in);
 
 System.out.println("Ingrese un valor: ");
 
-int numero= valor.nextInt();
+int nu= valor.nextInt();
 
 
-double cuadrado = Math.pow(numero, 2);
+double cuadrado = Math.pow(nu, 2);
 
 
 
