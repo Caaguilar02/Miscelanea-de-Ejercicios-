@@ -4,12 +4,12 @@ public static void main(String[] args) {
 
 Scanner valor = new Scanner(System.in);
 
-System.out.println("Ingrese el primer numero: "); int n1 = valor.nextInt();
+System.out.println("Ingrese el primer numero: "); int nu1 = valor.nextInt();
 
 
-System.out.println("Ingrese el segundo numero: "); int n2 = valor.nextInt();
+System.out.println("Ingrese el segundo numero: "); int nu2 = valor.nextInt();
 
-int suma = n1 + n2;
+int suma = nu1 + nu2;
 
 System.out.println("La suma de los valores ingresados es:" + suma);
 
